@@ -1,7 +1,7 @@
 import requests
 
-##Made By Sabbir Hossain
-print(".................Made By Sabbir Hossain.................")
+
+print("...............................Made By Sabbir Hossain..............................")
 city=input('Enter your city name:')
 url='http://api.openweathermap.org/data/2.5/weather?q={}&appid=975154a1d4adacf218847495eead535e&units=metric'.format(city)
 res=requests.get(url)
